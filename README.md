@@ -1,16 +1,18 @@
-# mobilhw4
+Team Members: Bilal Durmuş Çınar Okutan
 
-A new Flutter project.
+Getting Started TO RUN THE APP: 
+flutter pub get 
+flutter run
 
-## Getting Started
+IF YOU GET AN ERROR WITH DART VERSION, RUN: 
+flutter channel stable 
+flutter upgrade 
+flutter pub get 
+flutter run
 
-This project is a starting point for a Flutter application.
+IF YOU WANT TO RUN WITH SPESIFIC DEVICE OR EMULATOR, RUN: 
+flutter pub get 
+flutter run -d <device_id>
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+YOU CAN GET DEVICE ID WITH: 
+flutter devices
